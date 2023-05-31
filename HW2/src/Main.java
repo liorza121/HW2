@@ -13,5 +13,7 @@ public class Main {
             // for you, but you can always add more by pressing Ctrl+F8.
             System.out.println("i = " + i);
         }
+        Polynomial polynomial = new Polynomial(0.5, 2);
+        System.out.println(polynomial.toString());
     }
 }
